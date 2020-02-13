@@ -16,5 +16,6 @@ class String
   end
 
   def count_sentences
-    
+    proper_sentences = self.split
+    proper_sentences.length
 end
