@@ -2,28 +2,21 @@ class String
 
   def sentence?
     if self.end_with?(".")
-    true 
-  else
-    false
-  end
-end
+    end
 
   def question?
     self.end_with?("?")
-    true 
-  else
-    false
- end
-end
+  end
+
 
   def exclamation?
   self.end_with?("!")
-      true 
-  else
-    false
- end
 end
+
+
   def count_sentences
     proper_sentences = self.split
     proper_sentences.length
+end
+
 end
