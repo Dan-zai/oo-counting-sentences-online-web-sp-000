@@ -1,7 +1,7 @@
 class String
 
   def sentence?
-    if self.end_with?(".")
+    self.end_with?(".")
     end
 
   def question?
