@@ -18,6 +18,5 @@ end
     proper_sentences = self.split(/[\.!?] /)
     proper_sentences.length
 end
-end
 
 end
